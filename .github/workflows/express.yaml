@@ -25,4 +25,5 @@ jobs:
       with:
         context: .
         push: true
+        platforms: linux/amd64, linux/arm/v8
         tags: ${{ secrets.DOCKER_USERNAME }}/hy-express-app:latest
